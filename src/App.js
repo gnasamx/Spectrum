@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './compoents/button/button';
+import {H1, H2, H3, H4, H5, H6} from './compoents/typography/typography';
 
 function App() {
   return (
@@ -15,21 +15,12 @@ function App() {
           margin: '0 auto',
         }}
       >
-        <div style={{margin: '1rem', width: '100%'}}>
-          <Button primary block>
-            New message
-          </Button>
-        </div>
-        <div style={{margin: '1rem', width: '100%'}}>
-          <Button secondary block>
-            New message
-          </Button>
-        </div>
-        <div style={{margin: '1rem', width: '100%'}}>
-          <Button outline block>
-            New message
-          </Button>
-        </div>
+        <H1 />
+        <H2 />
+        <H3 />
+        <H4 />
+        <H5 />
+        <H6 />
       </div>
     </>
   );
