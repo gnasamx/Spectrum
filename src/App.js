@@ -4,13 +4,33 @@ import Button from './compoents/button/button';
 function App() {
   return (
     <>
-      <Button primary>Button</Button>
-      <Button secondary>Button</Button>
-      <Button outline>Button</Button>
-      <Button outline small>
-        Button
-      </Button>
-      <Button>Button</Button>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexDirection: 'column',
+          alignItems: 'center',
+          height: '100vh',
+          width: '30%',
+          margin: '0 auto',
+        }}
+      >
+        <div style={{margin: '1rem', width: '100%'}}>
+          <Button primary block>
+            New message
+          </Button>
+        </div>
+        <div style={{margin: '1rem', width: '100%'}}>
+          <Button secondary block>
+            New message
+          </Button>
+        </div>
+        <div style={{margin: '1rem', width: '100%'}}>
+          <Button outline block>
+            New message
+          </Button>
+        </div>
+      </div>
     </>
   );
 }

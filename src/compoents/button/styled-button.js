@@ -10,7 +10,7 @@ import {
 } from './getStyles';
 
 export const ButtonWrapper = styled.button`
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 2rem;
   display: flex;
   cursor: pointer;
@@ -28,9 +28,6 @@ export const ButtonWrapper = styled.button`
   transition-property: box-shadow;
   opacity: 1;
   background-color: ${props => getBackgroundColor(props)};
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 0;
   outline: none;
   width: ${props => getWidth(props)};
 
@@ -39,5 +36,9 @@ export const ButtonWrapper = styled.button`
     border-color: ${props => getBorderColor({state: 'hover', ...props})};
     background-color: ${props =>
       getBackgroundColor({state: 'hover', ...props})};
+  }
+
+  &:active {
+    box-shadow: ${props => getBoxShadow({state: 'active', ...props})};
   }
 `;

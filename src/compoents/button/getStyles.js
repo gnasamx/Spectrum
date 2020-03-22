@@ -1,4 +1,4 @@
-import {applyPropertyStyle} from '../theme/baseTheme';
+import {applyPropertyStyle} from './baseTheme';
 import {decideAppearance} from './utils';
 
 export function getPadding({small, large}) {

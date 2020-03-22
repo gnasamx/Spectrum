@@ -1,5 +1,5 @@
 import {decideTheme} from './utils';
-import {gray} from './colors';
+import {gray} from '../theme/colors';
 
 const primary = decideTheme();
 
@@ -34,8 +34,8 @@ export const baseTheme = {
       hover: gray['50'],
     },
     outline: {
-      default: primary['60'],
-      hover: primary['70'],
+      default: primary['70'],
+      hover: primary['80'],
     },
   },
   color: {
@@ -48,19 +48,19 @@ export const baseTheme = {
       hover: gray['90'],
     },
     outline: {
-      default: primary['60'],
-      hover: primary['60'],
+      default: primary['70'],
+      hover: primary['70'],
     },
   },
-  // boxShadow: {
-  //   primary: {
-  //     active: `${colors.w10} 0px 0px 0px 2px, ${colors.p75} 0px 0px 0px 4px`,
-  //   },
-  //   secondary: {
-  //     active: `${colors.w10} 0px 0px 0px 2px, ${colors.b75} 0px 0px 0px 4px`,
-  //   },
-  //   outline: {
-  //     active: `${colors.w10} 0px 0px 0px 2px, ${colors.p100} 0px 0px 0px 4px`,
-  //   },
-  // },
+  boxShadow: {
+    primary: {
+      active: `${gray['00']} 0px 0px 0px 2px, ${primary['20']} 0px 0px 0px 4px`,
+    },
+    secondary: {
+      active: `${gray['00']} 0px 0px 0px 2px, ${gray['40']} 0px 0px 0px 4px`,
+    },
+    outline: {
+      active: `${gray['00']} 0px 0px 0px 2px, ${primary['20']} 0px 0px 0px 4px`,
+    },
+  },
 };
