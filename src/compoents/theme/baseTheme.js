@@ -1,4 +1,7 @@
 import {decideTheme} from './utils';
+import {gray} from './colors';
+
+const primary = decideTheme();
 
 export const applyPropertyStyle = (property, appearance, state = 'default') => {
   const propertyStyle = baseTheme[property];
@@ -6,50 +9,48 @@ export const applyPropertyStyle = (property, appearance, state = 'default') => {
   return appearanceStyle[state];
 };
 
-const primary = decideTheme();
-
 export const baseTheme = {
   background: {
     primary: {
       default: primary['60'],
       hover: primary['70'],
     },
-    // secondary: {
-    //   default: colors.w10,
-    //   hover: colors.w10,
-    // },
-    // outline: {
-    //   default: colors.w10,
-    //   hover: colors.p150,
-    // },
+    secondary: {
+      default: gray['00'],
+      hover: gray['05'],
+    },
+    outline: {
+      default: gray['00'],
+      hover: primary['00'],
+    },
   },
   border: {
     primary: {
       default: primary['60'],
       hover: primary['70'],
     },
-    // secondary: {
-    //   default: colors.w75,
-    //   hover: colors.w50,
-    // },
-    // outline: {
-    //   default: colors.p50,
-    //   hover: colors.p200,
-    // },
+    secondary: {
+      default: gray['40'],
+      hover: gray['50'],
+    },
+    outline: {
+      default: primary['60'],
+      hover: primary['70'],
+    },
   },
   color: {
     primary: {
-      default: '#FFFFFF',
-      hover: '#FFFFFF',
+      default: gray['00'],
+      hover: gray['00'],
     },
-    // secondary: {
-    //   default: colors.b50,
-    //   hover: colors.b50,
-    // },
-    // outline: {
-    //   default: colors.p50,
-    //   hover: colors.p50,
-    // },
+    secondary: {
+      default: gray['90'],
+      hover: gray['90'],
+    },
+    outline: {
+      default: primary['60'],
+      hover: primary['60'],
+    },
   },
   // boxShadow: {
   //   primary: {

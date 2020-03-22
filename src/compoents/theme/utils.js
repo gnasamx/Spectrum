@@ -7,8 +7,8 @@ import {
   blue,
   indigo,
   green,
-  grey,
-} from '../theme/new-colors';
+  gray,
+} from './colors';
 
 export function decideAppearance(primary, secondary, outline) {
   if (primary) return 'primary';
@@ -21,7 +21,7 @@ export function decideAppearance(primary, secondary, outline) {
 }
 
 export function decideTheme() {
-  const primaryColor = 'purple';
+  const primaryColor = 'blue';
   switch (primaryColor) {
     case 'pink':
       return pink;
@@ -39,8 +39,8 @@ export function decideTheme() {
       return indigo;
     case 'purple':
       return purple;
-    case 'grey':
-      return grey;
+    case 'gray':
+      return gray;
     default:
       console.log("Primary color is required, current primary color 'Purple'!");
       return purple;

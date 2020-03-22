@@ -5,6 +5,12 @@ function App() {
   return (
     <>
       <Button primary>Button</Button>
+      <Button secondary>Button</Button>
+      <Button outline>Button</Button>
+      <Button outline small>
+        Button
+      </Button>
+      <Button>Button</Button>
     </>
   );
 }
