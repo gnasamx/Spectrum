@@ -10,6 +10,9 @@ function App() {
       <Button secondary block>
         Button
       </Button>
+      <Button primary disabled>
+        Button
+      </Button>
     </>
   );
 }
