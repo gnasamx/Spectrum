@@ -1,111 +1,142 @@
 // Pinks
-export const pink00 = '#FFFAFD  ';
-export const pink05 = '#FFE1F2';
-export const pink10 = '#FFC7E4';
-export const pink20 = '#FF8FCC';
-export const pink30 = '#FF5DBB';
-export const pink40 = '#FF32B1';
-export const pink50 = '#FF0EB0';
-export const pink60 = '#DE00A7';
-export const pink70 = '#BD00A0';
-export const pink80 = '#A00093';
-export const pink90 = '#860081';
-export const pink00 = '#71006F';
+export const pink = {
+  '00': '#FFFAFD',
+  '05': '#FFE1F2',
+  '10': '#FFC7E4',
+  '20': '#FF8FCC',
+  '30': '#FF5DBB',
+  '40': '#FF32B1',
+  '50': '#FF0EB0',
+  '60': '#DE00A7',
+  '70': '#BD00A0',
+  '80': '#A00093',
+  '90': '#860081',
+  '100': '#71006F',
+};
 
 // Reds
-export const red00 = '#FFFAFB';
-export const red05 = '#FFE5E9';
-export const red10 = '#FECFD5';
-export const red20 = '#FFA0AC';
-export const red30 = '#FF7689';
-export const red40 = '#FF506B';
-export const red50 = '#FF3254';
-export const red60 = '#E6193F';
-export const red70 = '#B8062C';
-export const red80 = '#8C0020';
-export const red90 = '#670019';
-export const red00 = '#560015';
+export const red = {
+  '00': '#FFFAFB',
+  '05': '#FFE5E9',
+  '10': '#FECFD5',
+  '20': '#FFA0AC',
+  '30': '#FF7689',
+  '40': '#FF506B',
+  '50': '#FF3254',
+  '60': '#E6193F',
+  '70': '#B8062C',
+  '80': '#8C0020',
+  '90': '#670019',
+  '100': '#560015',
+};
 
 // Oranges
-export const orange00 = '#FFF6F2';
-export const orange05 = '#FFE8DD';
-export const orange10 = '#FFD9C7';
-export const orange20 = '#FFB38F';
-export const orange30 = '#FF915D';
-export const orange40 = '#FF7232';
-export const orange50 = '#F9560E';
-export const orange60 = '#D03D00';
-export const orange70 = '#A82E00';
-export const orange80 = '#832300';
-export const orange90 = '#651A00';
-export const orange00 = '#581600';
+export const orange = {
+  '00': '#FFF6F2',
+  '05': '#FFE8DD',
+  '10': '#FFD9C7',
+  '20': '#FFB38F',
+  '30': '#FF915D',
+  '40': '#FF7232',
+  '50': '#F9560E',
+  '60': '#D03D00',
+  '70': '#A82E00',
+  '80': '#832300',
+  '90': '#651A00',
+  '100': '#581600',
+};
 
 // Greens
-export const green00 = '#FAFFFC';
-export const green05 = '#D1FFE2';
-export const green10 = '#A7FFC4';
-export const green20 = '#4AE779';
-export const green30 = '#03CD3D';
-export const green40 = '#02B32E';
-export const green50 = '#009B22';
-export const green60 = '#038317';
-export const green70 = '#006E0B';
-export const green80 = '#025A04';
-export const green90 = '#024802';
-export const green00 = '#003A13';
+export const green = {
+  '00': '#FAFFFC',
+  '05': '#D1FFE2',
+  '10': '#A7FFC4',
+  '20': '#4AE779',
+  '30': '#03CD3D',
+  '40': '#02B32E',
+  '50': '#009B22',
+  '60': '#038317',
+  '70': '#006E0B',
+  '80': '#025A04',
+  '90': '#024802',
+  '100': '#003A13',
+};
 
 // Teals
-export const teal00 = '#FAFFFF';
-export const teal05 = '#E7FEFF';
-export const teal10 = '#D4FCFF';
-export const teal20 = '#9CE7EC';
-export const teal30 = '#6BCCD2';
-export const teal40 = '#46B1B7';
-export const teal50 = '#2B999F';
-export const teal60 = '#198387';
-export const teal70 = '#106F71';
-export const teal80 = '#065B5C';
-export const teal90 = '#034A4A';
-export const teal00 = '#013A3A';
+export const teal = {
+  '00': '#FAFFFF',
+  '05': '#E7FEFF',
+  '10': '#D4FCFF',
+  '20': '#9CE7EC',
+  '30': '#6BCCD2',
+  '40': '#46B1B7',
+  '50': '#2B999F',
+  '60': '#198387',
+  '70': '#106F71',
+  '80': '#065B5C',
+  '90': '#034A4A',
+  '100': '#013A3A',
+};
 
 // Blue
-export const blue00 = '#FAFBFF';
-export const blue05 = '#E8ECFF';
-export const blue10 = '#D5DCFF';
-export const blue20 = '#ACBBFF';
-export const blue30 = '#869DFF';
-export const blue40 = '#6686FF';
-export const blue50 = '#4B73FF';
-export const blue60 = '#3668FF';
-export const blue70 = '#2156DB';
-export const blue80 = '#1242AF';
-export const blue90 = '#093186';
-export const blue00 = '#042260';
+export const blue = {
+  '00': '#FAFBFF',
+  '05': '#E8ECFF',
+  '10': '#D5DCFF',
+  '20': '#ACBBFF',
+  '30': '#869DFF',
+  '40': '#6686FF',
+  '50': '#4B73FF',
+  '60': '#3668FF',
+  '70': '#2156DB',
+  '80': '#1242AF',
+  '90': '#093186',
+  '100': '#042260',
+};
 
 // Indigo
-export const indigo00 = '#FAFAFF';
-export const indigo05 = '#EBEBFF';
-export const indigo10 = '#DCDCFF';
-export const indigo20 = '#BABAFF';
-export const indigo30 = '#9D9BFF';
-export const indigo40 = '#8481FF';
-export const indigo50 = '#726BFF';
-export const indigo60 = '#665AFF';
-export const indigo70 = '#604CFF';
-export const indigo80 = '#523BE4';
-export const indigo90 = '#3D29B1';
-export const indigo00 = '#2B1B81';
+export const indigo = {
+  '00': '#FAFAFF',
+  '05': '#EBEBFF',
+  '10': '#DCDCFF',
+  '20': '#BABAFF',
+  '30': '#9D9BFF',
+  '40': '#8481FF',
+  '50': '#726BFF',
+  '60': '#665AFF',
+  '70': '#604CFF',
+  '80': '#523BE4',
+  '90': '#3D29B1',
+  '100': '#2B1B81',
+};
 
 // Purples
-export const purple00 = '#FDFAFF';
-export const purple05 = '#F6EBFF';
-export const purple10 = '#ECDCFF';
-export const purple20 = '#D7B8FF';
-export const purple30 = '#C294FF';
-export const purple40 = '#AD71FF';
-export const purple50 = '#9B52FF';
-export const purple60 = '#8B37FF';
-export const purple70 = '#7B20F9';
-export const purple80 = '#590DC4';
-export const purple90 = '#420499';
-export const purple00 = '#390188';
+export const purple = {
+  '00': '#FDFAFF',
+  '05': '#F6EBFF',
+  '10': '#ECDCFF',
+  '20': '#D7B8FF',
+  '30': '#C294FF',
+  '40': '#AD71FF',
+  '50': '#9B52FF',
+  '60': '#8B37FF',
+  '70': '#7B20F9',
+  '80': '#590DC4',
+  '90': '#420499',
+  '100': '#390188',
+};
+
+export const grey = {
+  '00': '#FFFFFF',
+  '5': '#FDFDFD',
+  '10': '#FBFBFB',
+  '20': '#F4F4F4',
+  '30': '#E9E9E9',
+  '40': '#D9D9D9',
+  '50': '#C5C5C5',
+  '60': '#AAAAAA',
+  '70': '#878787',
+  '80': '#5E5E5E',
+  '90': '#303030',
+  '100': '#000000',
+};

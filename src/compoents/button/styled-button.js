@@ -40,11 +40,4 @@ export const ButtonWrapper = styled.button`
     background-color: ${props =>
       getBackgroundColor({state: 'hover', ...props})};
   }
-
-  &:active {
-    box-shadow: ${props => getBoxShadow({state: 'active', ...props})};
-  }
-
-  &:focus {
-  }
 `;
