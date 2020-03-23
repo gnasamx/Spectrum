@@ -1,11 +1,10 @@
 import React from 'react';
-import {BoxContainer} from './styled-backgrounds';
-import Button from '../button/button';
+import {BoxContainer, BoxTwoColumns} from './styled-backgrounds';
 
-export function Box() {
-  return (
-    <BoxContainer padding="1rem">
-      <Button>Button</Button>
-    </BoxContainer>
-  );
+export function Box({children, ...props}) {
+  return <BoxContainer {...props}>{children}</BoxContainer>;
+}
+
+export function BoxCol2({children, ...props}) {
+  return <BoxTwoColumns {...props}>{children}</BoxTwoColumns>;
 }

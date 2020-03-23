@@ -10,34 +10,34 @@ import {
   TextSpan,
 } from './styled-typography';
 
-export function H1() {
-  return <TextH1>Hello World</TextH1>;
+export function H1({children, ...props}) {
+  return <TextH1 {...props}>{children}</TextH1>;
 }
 
-export function H2() {
-  return <TextH2>Hello World</TextH2>;
+export function H2({children, ...props}) {
+  return <TextH2 {...props}>{children}</TextH2>;
 }
 
-export function H3() {
-  return <TextH3>Hello World</TextH3>;
+export function H3({children, ...props}) {
+  return <TextH3 {...props}>{children}</TextH3>;
 }
 
-export function H4() {
-  return <TextH4>Hello World</TextH4>;
+export function H4({children, ...props}) {
+  return <TextH4 {...props}>{children}</TextH4>;
 }
 
-export function H5() {
-  return <TextH5>Hello World</TextH5>;
+export function H5({children, ...props}) {
+  return <TextH5 {...props}>{children}</TextH5>;
 }
 
-export function H6() {
-  return <TextH6>Hello World</TextH6>;
+export function H6({children, ...props}) {
+  return <TextH6 {...props}>{children}</TextH6>;
 }
 
-export function P() {
-  return <TextP>Hello World</TextP>;
+export function P({children, ...props}) {
+  return <TextP {...props}>{children}</TextP>;
 }
 
-export function Span() {
-  return <TextSpan>Hello World</TextSpan>;
+export function Span({children, ...props}) {
+  return <TextSpan {...props}>{children}</TextSpan>;
 }

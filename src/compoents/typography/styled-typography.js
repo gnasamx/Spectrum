@@ -1,15 +1,5 @@
 import styled, {css} from 'styled-components';
 import {gray} from '../theme/colors';
-import {
-  PaddingDirections,
-  MarginDirections,
-  Margin,
-  Padding,
-} from '../common/styled-common';
-
-const TextColor = css`
-  color: ${({color}) => color || gray['90']};
-`;
 
 export const TextH1 = styled.h1`
   font-size: ${({fontSize}) => fontSize || '3.5rem'};
