@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  H1,
-  H2,
-  H3,
-  H4,
-  H5,
-  H6,
-  P,
-  Span,
-} from './compoents/typography/typography';
+import {Box} from './compoents/backgrounds/backgrounds';
 
 function App() {
   return (
@@ -24,14 +15,7 @@ function App() {
           margin: '0 auto',
         }}
       >
-        <H1 />
-        <H2 />
-        <H3 />
-        <H4 />
-        <H5 />
-        <H6 />
-        <P />
-        <Span />
+        <Box />
       </div>
     </>
   );
