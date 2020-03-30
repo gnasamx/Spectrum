@@ -35,3 +35,10 @@ export const BoxTwoColumns = styled.div`
   margin: ${({margin}) => margin && margin};
   padding: ${({padding}) => padding && padding};
 `;
+
+export const FlexBox = styled(BoxContainer)`
+  display: flex;
+  flex-direction: ${({flexDirection}) => flexDirection || 'row'};
+  align-items: ${({alignItems}) => alignItems || 'center'};
+  justify-content: ${({justifyContent}) => justifyContent || 'center'};
+`;
