@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, BoxCol2} from './compoents/backgrounds/backgrounds';
-import {ListItem} from './app-components/lists/lists';
+import Button from './compoents/button/button';
 
 function App() {
   return (
@@ -17,9 +17,7 @@ function App() {
         }}
       >
         <Box padding="1rem">
-          <ListItem />
-          <ListItem />
-          <ListItem />
+          <Button secondary block>Register</Button>
         </Box>
       </div>
     </>

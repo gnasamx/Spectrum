@@ -21,7 +21,7 @@ export function decideAppearance(primary, secondary, outline) {
 }
 
 export function decideTheme() {
-  const primaryColor = 'pink';
+  const primaryColor = 'purple';
   switch (primaryColor) {
     case 'pink':
       return pink;
